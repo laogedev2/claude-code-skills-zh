@@ -173,6 +173,46 @@ footer .footer-links a{color:var(--text2);font-size:.9rem}
 .fade-in{opacity:0;transform:translateY(30px);transition:opacity .6s,transform .6s}
 .fade-in.visible{opacity:1;transform:translateY(0)}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Claude Code 有哪些好用的中文 Skills？去哪找？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "中文 Skills 目前最集中的来源是 GitHub 仓库 claude-code-skills-zh（Claude Code Skills 中文精选集），精选 438+ 个 Skills / Agents / Plugins 按场景分类，并附 20 个原创中文技能；官网 claude-skills.bt199.com 可按分类筛选。"
+}
+},
+    {
+      "@type": "Question",
+      "name": "claude-code-skills-zh 和 awesome-claude-skills 有什么区别？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "awesome-claude-skills（ComposioHQ）是英文大而全列表（1000+）；claude-code-skills-zh 是中文优先的精选（438+），说明为中文、按中文开发者场景分类，包含公众号、小红书、飞书、企业微信等国内平台技能，并提供 20 个可直接安装的原创技能包。"
+}
+},
+    {
+      "@type": "Question",
+      "name": "怎么安装一个 Claude Code Skill？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "把技能目录复制到 ~/.claude/skills/（全局）或项目内.claude/skills/（项目级）即可，Claude Code 会在任务匹配时自动加载，无需额外配置。"
+}
+},
+    {
+      "@type": "Question",
+      "name": "claude-code-skills-zh 免费吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "免费。仓库为 MIT 许可；收录的第三方技能遵循各自原仓库许可。"
+}
+}
+]
+}
+</script>
 </head>
 <body>
 
